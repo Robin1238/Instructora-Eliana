@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+.container {
+  margin: auto;
+  height: 500px;
+  width: 500px;
+  position: relative;
+}
+
+.logo {
+  margin: 0 -50px 0;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  display: inline-block;
+  background-color: #b1060f;
+  width: 35px;
+  height: 150px;
+}
+
+.logo2 {
+  margin: 0px 60px 0;
+  position: absolute;
+  display: inline-block;
+  background-color: #b1060f;
+  width: 35px;
+  height: 150px;
+}
+
+.diagonal {
+  box-shadow: 0 0 250px 50px black;
+  box-shadow: 2px black;
+  margin: 0 28px 0;
+  position: absolute;
+  background-color: #e50914;
+  width: 40px;
+  height: 150px;
+  transform: skew(20deg);
+  z-index: 10;
+}
+
+.general {
+  margin-top: 100px;
+  scale: 3.2;
+}
