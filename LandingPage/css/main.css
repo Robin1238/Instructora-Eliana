@@ -1,0 +1,492 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap");
+
+:root {
+  --fn-general: "Nunito";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header img {
+  width: auto;
+  margin: 10px 10px 10px 70px;
+}
+
+header button {
+  padding: 3px 25px 3px 25px;
+  margin: 10px 70px 10px 10px;
+  background-color: #f34f36;
+  border-radius: 8px;
+  font-size: medium;
+  color: white;
+  border: none;
+}
+
+.section-one {
+  display: flex;
+  background-image: linear-gradient(#2a4c62, 40%, #3a7399);
+  height: 482px;
+  width: 100%;
+}
+
+.section-one .tittles {
+  margin: auto 0px auto 100px;
+  display: flex;
+}
+
+.section-one .tittles .tittles-text {
+  padding: 50px 0px;
+}
+
+.section-one .tittles h2 {
+  font-weight: 900;
+  font-family: "Nunito", sans-serif;
+  line-height: 100%;
+  font-size: xx-large;
+  color: white;
+  width: 310px;
+}
+
+.section-one .tittles h3 {
+  font-family: "Nunito", sans-serif;
+  font-size: x-large;
+  color: #b9e6e9;
+}
+
+.section-one .tittles p {
+  margin-top: 20px;
+  width: 300px;
+  line-height: 100%;
+  color: aliceblue;
+}
+
+.section-one img {
+  width: 390px;
+  height: 340px;
+}
+
+.section-one .form-one {
+  border-radius: 20px;
+  width: 350px;
+  margin: auto 50px;
+  background-color: aliceblue;
+  height: 400px;
+}
+
+.section-one .form-one button {
+  padding: 5px 15px 5px 15px;
+  margin: 315px auto 0px auto;
+  display: block;
+  background-color: #f34f36;
+  border-radius: 8px;
+  font-size: medium;
+  color: white;
+  border: none;
+}
+
+/* &+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.section-two {
+  background-color: aliceblue;
+  font-family: "Nunito", sans-serif;
+  width: 100%;
+}
+
+.section-two .text {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.section-two .text img {
+  margin: 50px 0px;
+  width: 600px;
+}
+
+.section-two .text .part-one {
+  width: 360px;
+  height: 220px;
+  margin: auto 0px;
+}
+
+.section-two .text .part-one p {
+  text-align: center;
+}
+
+.section-two .text .part-one .nombre {
+  line-height: 100%;
+  margin-top: 15px;
+  color: #3a7399;
+}
+
+.section-two .text .part-one .nombre span {
+  font-size: small;
+  color: black;
+}
+
+.section-two .text .part-one p span {
+  font-weight: bolder;
+  text-align: center;
+  color: #3a7399;
+}
+
+.section-two .text .part-one .link-bot img {
+  width: 50px;
+  margin: auto 0;
+}
+
+.section-two .text .part-one .link-bot {
+  margin: 10px auto;
+  width: max-content;
+  display: flex;
+}
+
+.section-two .text .part-one .link-bot p {
+  margin: auto 5px;
+  font-size: larger;
+  color: #3a7399;
+  display: flex;
+}
+
+/* &+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.section-two .sub-pages {
+  background-color: white;
+  margin: auto 100px;
+  display: flex;
+  gap: 10px;
+}
+
+.section-two .sub-pages .ventajas {
+  width: 50%;
+}
+
+.section-two .sub-pages .ventajas h2 {
+  text-align: center;
+  margin: 50px auto 0px auto;
+  width: 400px;
+}
+
+.section-two .sub-pages .ventajas h2 span {
+  color: #3a7399;
+}
+
+.section-two .sub-pages .ventajas img {
+  width: 500px;
+  display: block;
+  margin: 0px auto;
+}
+
+/* &+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.section-two .sub-pages .lista-ventajas {
+  margin: 0px auto;
+  width: 50%;
+}
+
+.section-two .sub-pages .lista-ventajas .sub-pages-ul-li {
+  margin: 50px auto 0px auto;
+}
+
+.section-two .sub-pages .lista-ventajas .ul-li {
+  display: flex;
+}
+
+.section-two .sub-pages .lista-ventajas .ul-li p .Vector-azul {
+  color: #3a7399;
+}
+
+.section-two .sub-pages .lista-ventajas .ul-li p {
+  line-height: 100%;
+  width: 360px;
+}
+
+.section-two .sub-pages .lista-ventajas .ul-li img {
+  width: 40px;
+  height: 30px;
+  margin: 2px 15px 30px 15px;
+}
+
+/* &++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.section-two .Mas-ventajas {
+  margin-top: 50px;
+  display: flex;
+}
+
+.section-two .Mas-ventajas .center {
+  margin: auto;
+  display: flex;
+}
+
+.section-two .Mas-ventajas img {
+  width: 200px;
+  margin: 20px;
+}
+
+.section-two .Mas-ventajas .separator {
+  width: 500px;
+  height: 200px;
+  margin: auto;
+}
+
+.section-two .Mas-ventajas .separator h2 #Mas-ventajas-tittle {
+  font-size: 40px;
+  color: black;
+}
+
+.section-two .Mas-ventajas .separator h2 {
+  margin-top: 25px;
+  color: #3a7399;
+  line-height: 100%;
+  font-size: 30px;
+}
+
+.section-two .Mas-ventajas .separator p {
+  margin-top: 15px;
+  line-height: 100%;
+  width: 510px;
+  text-align: justify;
+}
+
+.section-two .container-one {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.section-two .container-one .child {
+  margin: 5px;
+  display: flex;
+}
+
+.section-two .container-one .child p {
+  height: min-content;
+  width: 240px;
+  margin: auto;
+}
+
+.section-two .container-one .child img {
+  width: 100px;
+  margin: 5px;
+}
+
+.section-two .container-two {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.section-two .container-two .child {
+  margin: 5px;
+  display: flex;
+}
+
+.section-two .container-two .child p {
+  height: min-content;
+  width: 240px;
+  margin: auto;
+}
+
+.section-two .container-two .child img {
+  width: 100px;
+  margin: 5px;
+}
+
+.section-two .truco {
+  height: 50px;
+}
+
+/* &++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.section-three {
+  background-image: linear-gradient(#2a4c62, 40%, #3a7399);
+  display: block;
+}
+
+.section-three .truco {
+  height: 50px;
+}
+
+.section-three img {
+  width: 800px;
+  margin: auto;
+  display: block;
+}
+
+.section-three h2 {
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+  color: #b9e6e9;
+}
+.section-three h2 span {
+  color: white;
+}
+
+.section-three .texto-s-three {
+  margin: 25px auto 25px auto;
+  color: white;
+}
+
+.section-three p {
+  font-family: "Nunito", sans-serif;
+  margin: 15px auto 15px auto;
+  text-align: center;
+  color: white;
+}
+
+.section-three .texto-s-three li p {
+  margin: 10px auto;
+  width: 470px;
+}
+
+.section-three button {
+  padding: 5px 15px 5px 15px;
+  margin: 15px auto 0px auto;
+  display: block;
+  background-color: #f34f36;
+  border-radius: 8px;
+  font-size: medium;
+  color: white;
+  border: none;
+}
+
+/* &+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.section-four {
+  margin: 50px;
+}
+
+.section-four h2 {
+  color: #3a7399;
+  line-height: 100%;
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+  margin: 10px;
+}
+
+.section-four h2 span {
+  color: black;
+  line-height: 100%;
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+  margin: 10px;
+}
+
+.section-four .container-review {
+  margin: auto 100px;
+  display: flex;
+  justify-content: space-around;
+}
+.section-four img {
+  width: 370px;
+}
+
+/* &+++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.section-five {
+  background-image: linear-gradient(#2a4c62, 40%, #3a7399);
+  display: flex;
+}
+
+.section-five .bot-text {
+  display: block;
+  width: 60%;
+  height: 400px;
+  margin: 50px;
+}
+
+.section-five .bot-text h2 {
+  font-family: "Nunito", sans-serif;
+  margin: 20px auto;
+  line-height: 100%;
+  font-size: xx-large;
+  color: white;
+  text-align: center;
+  width: 600px;
+}
+
+.section-five .bot-text h2 span {
+  color: #b9e6e9;
+}
+
+.section-five img {
+  display: block;
+  margin: auto;
+  width: 400px;
+}
+
+.section-five .form-two {
+  display: block;
+  border-radius: 20px;
+  width: 350px;
+  margin: auto 10px auto 150px;
+  background-color: aliceblue;
+  height: 400px;
+}
+
+.section-five .form-two button {
+  padding: 5px 15px 5px 15px;
+  margin: 315px auto 0px auto;
+  display: block;
+  background-color: #f34f36;
+  border-radius: 8px;
+  font-size: medium;
+  color: white;
+  border: none;
+}
+
+/* &+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+footer {
+  background-color: #322c2e;
+}
+
+footer .container-footer {
+  margin: auto;
+  background-color: #f34f36;
+  width: 1200px;
+  display: flex;
+}
+
+footer .container-footer .container-text {
+  margin: auto;
+  background-color: #36f3e3;
+}
+
+footer .container-footer .container-text .redes {
+  margin: auto;
+  background-color: #cd36f3;
+}
+
+footer .funcionalidades {
+  margin: auto;
+  background-color: #36f37e;
+  width: 400px;
+}
+
+footer .nosotros {
+  margin: auto;
+  background-color: #eaf336;
+  width: 400px;
+}
+
+footer .nosotros img {
+  width: 150px;
+}
+
+footer .abajo {
+  display: block;
+  margin: auto;
+  background-color: #8536f3;
+  width: 400px;
+}
+
+footer .footer-container img {
+  width: 250px;
+}
